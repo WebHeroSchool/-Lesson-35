@@ -1,1 +1,1 @@
-fetch('https://github.com/RimmaMaybo');
+fetch('https://api.github.com/RimmaMaybo');
