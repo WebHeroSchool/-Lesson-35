@@ -1,16 +1,7 @@
 let body = document.body;
 let string = window.location.search;
 let url = 'https://api.github.com/users/RimmaMaybo';
-let getName = (url) => {
-  let g = url.split('=');
-  let name = g[1];
-  if (name == underfined) {
-    name = 'RimmaMaybo'
-  }
-  return name;
-}
-
- fetch(url)
+fetch(url)
   .then(res => res.json())
   .then(json => {
     console.log(json.avatar_url);
